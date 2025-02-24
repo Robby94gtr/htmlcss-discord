@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ .fix-width{
+    width: 1920px;
+ }
+
+ body{
+    font-family: "Atkinson";
+ }
+
+/* header */
+
+header{
+    background-color: #255EE9;
+    padding: 10px 0px;
+}
+
+.container{
+    background-color: #255EE9;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    
+}
+
+.logo-left, .link-center, .logo-right{
+    align-content: center;
+    /* text-align: center; */
+    height: 50px;
+} 
+
+.py-50px{
+    padding: 0px 50px;
+}
+
+
+.logo-left{
+    width: 25%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* .justify{
+    display: flex;
+    justify-content: space-around;
+} */
+
+.white{
+    color: white;
+}
+
+.link-center{
+   width: 50%;
+   text-align: center;
+   
+}
+
+.logo-right{
+    width: 25%;
+    
+    padding-right: 10px;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-flex;
+}
+
+.justify-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.square-white{
+    background-color: white;
+    width: 70px;
+    text-align: center;
+    border-radius: 25px;
+    padding: 15px 0;
+}
+
+.justify-end{
+    display: flex;
+    justify-content: flex-end;
+}
+/* header end */
+
+.border{
+    border-style: dashed;
+    border-color: black;
+    border-width: thin;
+}
+
+.white-border{
+    border-style: dashed;
+    border-color: rgb(255, 255, 255);
+    border-width: thin;
+}
+
+/* main */
+
+/* first section */
+
+.container-blue{
+    background-color: blue;
+    height: 500px;
+    align-content: center;
+}
+
+.pink-square{
+    background-color: rgb(251, 130, 170);
+    max-width: 908px;
+    margin: 0 auto;
+    display: flex;
+    height: 398px;
+    
+    
+}
+
+/* first section end */
+
+/* 2nd section */
+
+.container-white{
+    background-color: white;
+}
+
+.twosquares{
+    
+    height: 600px;
+    align-content: center;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.left-col-cyan{
+    background-color: aqua;
+    width: 70%;
+    height: 496px;
+}
+
+.right-col-pink{
+    background-color: pink;
+    height: 496px;
+    width: 30%;
+}
+
+.container-grey{
+    background-color: lightgrey;
+}
+
+.larger-height{
+    max-height: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.green-square{
+    background-color: green;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    height: 900px;
+}
+
+/* 3rd section */
+
+
+.container-dark-grey{
+    background-color: rgb(63, 63, 63);
+    height: auto;
+    padding-top: 15px;
+    padding-bottom: 25px;
+
+}
+
+.container-squares{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: max-content;
+}
+.square-small-pink{
+    background-color: pink;
+    height: 630px;
+    width: 40%;
+}
+
+.square-small-blue{
+    background-color: rgb(117, 140, 255);
+    height: 630px;
+    width: 20%;
+}
+
+/* Main End */
+
+/* Footer */
+
+.container-footer{
+    display: flex;
+    justify-content: center;
+    margin: 1px 0px;
+    height: 105px;
+    background-color: rgb(63, 63, 63);
+    flex-wrap: wrap-reverse;
+}
+
+.square-footer{
+    background-color: aqua;
+    display: flex;
+    width: 1200px;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-footer, .bottone-footer{
+    width: 70px; 
+    height: 35px;
+    background-color: pink;
+    text-align: center;
+    padding: 8px;
+   
+}
