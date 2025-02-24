@@ -28,7 +28,6 @@ header{
 
 .logo-left, .link-center, .logo-right{
     align-content: center;
-    /* text-align: center; */
     height: 50px;
 } 
 
@@ -43,10 +42,6 @@ header{
     padding-left: 10px;
 }
 
-/* .justify{
-    display: flex;
-    justify-content: space-around;
-} */
 
 .white{
     color: white;
@@ -80,16 +75,22 @@ header ul li{
 .square-white{
     background-color: white;
     width: 70px;
+    height: 35px;
     text-align: center;
     border-radius: 25px;
-    padding: 15px 0;
+    padding: 8px 0px;
 }
 
 .justify-end{
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 /* header end */
+
+.align-center{
+    align-self: center;
+}
 
 .border{
     border-style: dashed;
@@ -108,19 +109,29 @@ header ul li{
 /* first section */
 
 .container-blue{
-    background-color: blue;
+    background-color: #255EE9;
     height: 500px;
     align-content: center;
+    display: flex;
+    margin: 0px auto;
+
 }
 
 .pink-square{
     background-color: rgb(251, 130, 170);
-    max-width: 908px;
+    width: 908px;
     margin: 0 auto;
-    display: flex;
+    display: inline-flex;
     height: 398px;
     
     
+}
+
+.jumbo{
+    height: auto; 
+    width: fit-content; 
+    display: inline-flex;
+   
 }
 
 /* first section end */
