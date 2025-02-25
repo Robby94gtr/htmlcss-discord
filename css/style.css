@@ -3,20 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
- .fix-width{
-    width: 1920px;
- }
 
- body{
+/* common */
+
+body{
     font-family: "Atkinson";
  }
 
-/* header */
-
-header{
+ header{
     background-color: #255EE9;
     padding: 10px 0px;
 }
+
+ /* .fix-width{
+    width: 1920px;
+ } */
+
+/* layout */
 
 .container{
     background-color: #255EE9;
@@ -26,15 +29,12 @@ header{
     
 }
 
+
+
 .logo-left, .link-center, .logo-right{
     align-content: center;
     height: 50px;
 } 
-
-.py-50px{
-    padding: 0px 50px;
-}
-
 
 .logo-left{
     width: 25%;
@@ -42,37 +42,19 @@ header{
     padding-left: 10px;
 }
 
-
-.white{
-    color: white;
-}
-
 .link-center{
-   width: 50%;
-   text-align: center;
-   
-}
-
-.logo-right{
-    width: 25%;
+    width: 50%;
+    text-align: center;
     
-    padding-right: 10px;
-}
-
-header ul{
-    list-style-type: none;
-}
-
-header ul li{
-    display: inline-flex;
-}
-
-.justify-space-around{
-    display: flex;
-    justify-content: space-around;
-}
-
-.square-white{
+ }
+ 
+ .logo-right{
+     width: 25%;
+     
+     padding-right: 10px;
+ }
+ 
+ .square-white{
     background-color: white;
     width: 70px;
     height: 35px;
@@ -81,62 +63,44 @@ header ul li{
     padding: 8px 0px;
 }
 
-.justify-end{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-/* header end */
-
-.align-center{
-    align-self: center;
-}
-
-.border{
-    border-style: dashed;
-    border-color: black;
-    border-width: thin;
-}
-
-.white-border{
-    border-style: dashed;
-    border-color: rgb(255, 255, 255);
-    border-width: thin;
-}
-
-/* main */
-
-/* first section */
-
 .container-blue{
-    background-color: #255EE9;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
     height: 500px;
     align-content: center;
     display: flex;
+    flex-wrap: wrap;
     margin: 0px auto;
 
 }
+ h1{
+    font-size: 64px;
+    padding-left: 132px;
+    margin-bottom: 18px;
+ }
+
+ #paragraph{
+    font-size: 25px;
+    padding: 0px 62px;
+    text-align: center;
+ }
 
 .pink-square{
-    background-color: rgb(251, 130, 170);
+    background-color: transparent;
     width: 908px;
     margin: 0 auto;
     display: inline-flex;
-    height: 398px;
-    
-    
+    /* height: 398px;   */
+    color: white;
+    flex-wrap: wrap;
 }
 
-.jumbo{
+/* .jumbo{
     height: auto; 
     width: fit-content; 
     display: inline-flex;
    
-}
-
-/* first section end */
-
-/* 2nd section */
+} */
 
 .container-white{
     background-color: white;
@@ -168,12 +132,6 @@ header ul li{
     background-color: lightgrey;
 }
 
-.larger-height{
-    max-height: 1000px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-
 .green-square{
     background-color: green;
     max-width: 1200px;
@@ -181,9 +139,6 @@ header ul li{
     display: flex;
     height: 900px;
 }
-
-/* 3rd section */
-
 
 .container-dark-grey{
     background-color: rgb(63, 63, 63);
@@ -212,10 +167,6 @@ header ul li{
     width: 20%;
 }
 
-/* Main End */
-
-/* Footer */
-
 .container-footer{
     display: flex;
     justify-content: center;
@@ -241,4 +192,59 @@ header ul li{
     text-align: center;
     padding: 8px;
    
+}
+
+/* utility */
+
+.py-50px{
+    padding: 0px 50px;
+}
+
+.white{
+    color: white;
+}
+
+.justify-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.justify-end{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.align-center{
+    align-self: center;
+}
+
+.border{
+    border-style: dashed;
+    border-color: black;
+    border-width: thin;
+}
+
+.white-border{
+    border-style: dashed;
+    border-color: rgb(255, 255, 255);
+    border-width: thin;
+}
+
+.larger-height{
+    max-height: 1000px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+/* content */
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-flex;
 }
